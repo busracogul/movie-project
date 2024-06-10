@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body class="font-open">
     <header class="bg-black py-6 lg:py-12 text-movie-grey  uppercase">
         <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
             <a href="#" class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-movie-red to-movie-grey">MOVIE</a>
@@ -50,7 +50,7 @@
         </div>
     </header>
 
-    <section class="h-64 md:h-96 lg:h-128 group relative">
+    <section class="h-96 lg:h-128 group relative">
         <img src="./images/batman.jpg" alt="batman image" class="h-full w-full object-cover">
 
         <div class="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-black">
@@ -94,15 +94,15 @@
     </section>
 
     <section class="py-24 bg-black">
-        <div class="container flex space-x-16">
+        <div class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0">
             <div class="basis-2/3">
-                <div class="flex space-x-2 divide-x divide-movie-red divide-opacity-50 mb-8">
+                <div class="flex space-x-2 divide-x divide-movie-red divide-opacity-50 mb-8 pl-10 lg:pl-0">
                     <h2 class="text-movie-red"><a href="#">Latest</a></h2>
                     <h2 class="text-movie-grey pl-2 hover:text-movie-red duration-500"><a href="#">Popular</a></h2>
                     <h2 class="text-movie-grey pl-2 hover:text-movie-red duration-500"><a href="#">Best</a></h2>
                 </div>
                 <div class="flex flex-wrap">
-                    <div class="group relative overflow-hidden basis-1/3">
+                    <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                         <img src="./images/mv1.jpg" alt="movie-1" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                         <div class="absolute px-6 bottom-8">
                             <h3 class="text-movie-grey group-hover:text-movie-melon group-hover:mb-2 duration-500">Game Of Thrones</h3>
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="group relative overflow-hidden basis-1/3">
+                    <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                         <img src="./images/mv2.jpg" alt="movie-2" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                         <div class="absolute px-6 bottom-8">
                             <h3 class="text-movie-grey group-hover:text-movie-melon group-hover:mb-2 duration-500">Game Of Thrones</h3>
@@ -124,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="group relative overflow-hidden basis-1/3">
+                    <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                         <img src="./images/mv3.jpg" alt="movie-3" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                         <div class="absolute px-6 bottom-8">
                             <h3 class="text-movie-grey group-hover:text-movie-melon group-hover:mb-2 duration-500">Game Of Thrones</h3>
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="group relative overflow-hidden basis-1/3">
+                    <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                         <img src="./images/mv4.jpg" alt="movie-4" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                         <div class="absolute px-6 bottom-8">
                             <h3 class="text-movie-grey group-hover:text-movie-melon group-hover:mb-2 duration-500">Game Of Thrones</h3>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="group relative overflow-hidden basis-1/3">
+                    <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                         <img src="./images/mv5.jpg" alt="movie-5" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                         <div class="absolute px-6 bottom-8">
                             <h3 class="text-movie-grey group-hover:text-movie-melon group-hover:mb-2 duration-500">Game Of Thrones</h3>
@@ -157,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="group relative overflow-hidden basis-1/3">
+                    <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                         <img src="./images/mv6.jpg" alt="movie-6" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
                         <div class="absolute px-6 bottom-8">
                             <h3 class="text-movie-grey group-hover:text-movie-melon group-hover:mb-2 duration-500">Game Of Thrones</h3>
@@ -170,10 +170,10 @@
                     </div>
                 </div>
             </div>
-            <div class="basis-1/3">
+            <div class="basis-1/3 pl-10 lg:pl-0">
                 <h2 class="text-movie-grey mb-8">Hot News</h2>
-                <div class="flex flex-col h-full pb-16 justify-between">
-                    <div class="flex items-center group">
+                <div class="flex flex-row lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between flex-wrap lg:flex-nowrap space-y-4">
+                    <div class="flex items-center group basis-3/4 md:basis-1/2">
                         <div class="basis-1/3 h-full">
                             <img src="./images/new1.jpg" alt="news-1" class="h-full w-full object-cover">
                         </div>
@@ -182,7 +182,7 @@
                             <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                         </div>
                     </div>
-                    <div class="flex items-center group">
+                    <div class="flex items-center group basis-3/4 md:basis-1/2">
                         <div class="basis-1/3 h-full">
                             <img src="./images/new2.jpg" alt="news-2" class="h-full w-full object-cover">
                         </div>
@@ -191,7 +191,7 @@
                             <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                         </div>
                     </div>
-                    <div class="flex items-center group">
+                    <div class="flex items-center group basis-3/4 md:basis-1/2">
                         <div class="basis-1/3 h-full">
                             <img src="./images/new3.jpg" alt="news-3" class="h-full w-full object-cover">
                         </div>
@@ -200,7 +200,7 @@
                             <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                         </div>
                     </div>
-                    <div class="flex items-center group">
+                    <div class="flex items-center group basis-3/4 md:basis-1/2">
                         <div class="basis-1/3 h-full">
                             <img src="./images/new4.jpg" alt="news-4" class="h-full w-full object-cover">
                         </div>
@@ -209,7 +209,7 @@
                             <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                         </div>
                     </div>
-                    <div class="flex items-center group">
+                    <div class="flex items-center group basis-3/4 md:basis-1/2">
                         <div class="basis-1/3 h-full">
                             <img src="./images/new5.jpg" alt="news-5" class="h-full w-full object-cover">
                         </div>
