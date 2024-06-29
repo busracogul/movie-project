@@ -16,8 +16,14 @@
 
 </head>
 
-<body class="font-open">
-    <header class="bg-black py-6 lg:py-12 text-movie-grey  uppercase">
+<body class="font-open dark">
+
+    <div class="absolute top-1 left-5 cursor-pointer">
+        <i class="fa-solid fa-sun text-white" id="sun"></i>
+        <i class="fa-solid fa-moon text-black hidden" id="moon"></i>
+    </div>
+
+    <header class="dark:bg-black bg-white py-6 lg:py-12 text-black dark:text-movie-grey  uppercase">
         <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
             <a href="#"
                 class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-movie-red to-movie-grey">MOVIE</a>
@@ -443,6 +449,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
